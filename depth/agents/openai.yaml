@@ -1,0 +1,6 @@
+interface:
+  display_name: "Depth Research"
+  short_description: "Lean Depth Engine: evidence-based research with adversarial gap-finding"
+  default_prompt: "Use $depth for this conversation and apply evidence-based depth research with the mandatory adversarial completion pass and cross-family verification to the current task."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "skills": [
+    {
+      "id": "depth-research",
+      "entrypoint": "references/research.md",
+      "files": {
+        "SKILL.md": "5a14ab83278ea86abeba1309411b63b198badeb5cf6c075f178a10c472b26f3d",
+        "agents/openai.yaml": "2906a22393b5e29c67c3da0ffa6896b9d5659e6c504051069f86423475683855",
+        "references/research.md": "a4cc14ca143e58b54a26883ba4bbb4fe9ba393fc76b4f2d0c102c4c557bae063",
+        "references/walls.md": "4203566e918042b95f05051b78319830ddb1665c4240dc6d6de358559a7ce612",
+        "references/review.md": "5b5a66aa8d8d3c5dc8d64008b6160cc2f189d8e046fe71ce84eeff913c69d45a",
+        "scripts/adapters.py": "2dc1aac3eb9f046c2d39e4b35d80a3ffe64538ab0b914530e0a67688d365067e",
+        "scripts/browser_read.py": "ebb12c2a22b510f34bc5313ac9062973391b8d5ea11a1d52f5dfea02cb83dbb5",
+        "scripts/dispatch.py": "40f496ae2e7c3d1e7bf8c28448f5fd877b354c1e21688cf24af3b74039e51f01",
+        "scripts/review.py": "cccac3f1f6aa02674a1808a58c453470c31a188749494c68776a0a18cc17f4e5",
+        "scripts/tooling.py": "3188dfc8281fb726079012f7c10a49895604a1d31b9586c836f22af42be726b5",
+        "scripts/walls.py": "a07d12d3022af72983792fcd91627be5f19cce9bffc4215e7ffc463bc5128ef4",
+        "evals/protocol.md": "7cbe63fe8d239e9f8ff897504bcbb489c38ca05b6e53c4a1c078dd9a6789ec75",
+        "evals/scenarios.md": "96b78bde54fc6bbb488a792fe1e85a6f36f76798ea8897dcb13a72cc2efacf92",
+        "evals/test_dispatch.py": "c338a8681a8c1660dda6a2e62963c17f237f5e169cf74a1ce8e3f8941146ee73",
+        "evals/test_browser_read.py": "d17471b1a232573bb5c1fc3c0cb26e8c6e0fa34c347ab1621ec8830d72a697e3",
+        "evals/test_walls.py": "5dc840a08ff9b9f8720d0ee5b9c9bb107da38bc4bdda48526b67a61c713a9801"
+      },
+      "domains": [
+        "research"
+      ],
+      "modes": [
+        "research"
+      ],
+      "roles": [
+        "research"
+      ],
+      "automatic": true,
+      "adaptation": "Apply the Depth Engine's adversarial completion pass, claim ledger and cross-family review within the task scope. No stage files, ledgers, sign-off receipts, runtime supervisors, or nested coordinators. Local linked references resolve relative to this entrypoint; the wall ladder doctor reports what is actually usable."
+    }
+  ]
+}
